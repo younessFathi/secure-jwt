@@ -3,6 +3,10 @@ cache:
   - $HOME/.m2
 dist: trusty
 language: java
+branches:
+  only:
+  - youness/feature
+  - develop
 jdk:
 - openjdk8
 addons:
